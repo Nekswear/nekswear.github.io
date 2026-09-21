@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== SEO МЕТА-ТЕГИ ===== -->
+  <title>Flutter-разработчик на заказ | Александр — мобильные приложения</title>
+  <meta name="description" content="Кроссплатформенная Flutter-разработка с акцентом на UX, психологию восприятия и чистую архитектуру: офлайн-синхронизация, мультиязычность, публикация в Google Play. Лендинги и видеомонтаж.">
+
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:title" content="Flutter-разработчик на заказ — Александр">
+  <meta property="og:description" content="Мобильные приложения на Flutter с офлайн-синхронизацией, мультиязычностью и продуманным UX. Лендинги и короткие ролики для бизнеса.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Flutter-разработчик на заказ — Александр">
+  <meta name="twitter:description" content="Мобильные приложения на Flutter с офлайн-синхронизацией, мультиязычностью и продуманным UX. Лендинги и короткие ролики для бизнеса.">
+
+  <!-- ===== Стили и Favicon ===== -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none'><path d='M8 6C8 4.89543 8.89543 4 10 4H24C24.5523 4 25 4.44772 25 5C25 5.55228 24.5523 6 24 6H10V13H20C20.5523 13 21 13.4477 21 14C21 14.5523 20.5523 15 20 15H10V22.5C10 24.9853 12.0147 27 14.5 27C15.8807 27 17.1207 26.3776 17.95 25.4003C18.3073 24.979 18.9374 24.9226 19.3587 25.2799C19.78 25.6372 19.8364 26.2673 19.4791 26.6886C18.283 28.0988 16.4952 29 14.5 29C10.9101 29 8 26.0899 8 22.5V6Z' fill='%231E293B'/></svg>">
+</head>
+<body>
+
+  <!-- ===================== ШАПКА / НАВИГАЦИЯ ===================== -->
+  <header class="header">
+    <div class="header__inner container">
+      <a href="#hero" class="header__logo" aria-label="На главную">
+        <img src="img/favicon.svg" alt="Логотип Александра" class="header__logo-icon" width="32" height="32">
+        <span class="header__logo-text">Александр</span>
+      </a>
+
+      <!-- Кнопка мобильного меню (бургер) -->
+      <button class="header__burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="primary-nav">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+
+      <nav class="header__nav" id="primary-nav" aria-label="Основная навигация">
+        <ul class="header__nav-list">
+          <li><a href="#project" class="header__nav-link">Проект</a></li>
+          <li><a href="#about" class="header__nav-link">О себе</a></li>
+          <li><a href="#education" class="header__nav-link">Образование</a></li>
+          <li><a href="#audience" class="header__nav-link">Для кого</a></li>
+          <li><a href="#extra" class="header__nav-link">Услуги</a></li>
+        </ul>
+      </nav>
+
+      <a href="https://t.me/nekswear" class="button button--primary header__cta" target="_blank" rel="noopener" aria-label="Написать в Telegram">
+        Написать в Telegram
+      </a>
+    </div>
+  </header>
+
+  <!-- ===================== ОСНОВНОЙ КОНТЕНТ ===================== -->
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero section" id="hero" aria-label="Главный экран">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Кроссплатформенная Flutter-разработка: от чистой архитектуры до публикации
+          </h1>
+          <p class="hero__subtitle">
+            Создаю отказоустойчивые мобильные приложения с бесшовной офлайн-синхронизацией, полной мультиязычностью и аккуратной публикацией в Google Play.
+          </p>
+          <p class="hero__text">
+            Меня зовут Александр. Моё преимущество — на стыке разработки и психологии: проектирую интерфейсы так, чтобы снижать когнитивную нагрузку, использовать минимум шагов, предсказуемые сценарии и сохранять спокойный визуальный ритм.
+          </p>
+          <div class="hero__actions">
+            <a href="https://t.me/nekswear" class="button button--primary" target="_blank" rel="noopener">
+              Написать в Telegram
+            </a>
+            <a href="#project" class="button button--secondary">
+              Смотреть проект
+            </a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <img src="img/flutter-app-ui-1.png"
+               alt="Интерфейс Flutter-приложения с офлайн-синхронизацией и спокойным UI"
+               class="hero__image"
+               width="540" height="960"
+               loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ТЕКУЩИЙ ПРОЕКТ ===================== -->
+    <section class="project section" id="project" aria-label="Текущий проект">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Медитативный трекер привычек и психофизической саморегуляции</h2>
+          <p class="section__subtitle">Финальная отладка и подготовка к закрытому тестированию</p>
+        </header>
+
+        <div class="project__grid">
+          <!-- Левая колонка: параметры проекта -->
+          <article class="project__info">
+            <table class="project__table">
+              <tbody>
+                <tr class="project__row">
+                  <th scope="row" class="project__label">Стек</th>
+                  <td class="project__value">Flutter / Dart / SQLite / Firebase</td>
+                </tr>
+                <tr class="project__row">
+                  <th scope="row" class="project__label">Статус</th>
+                  <td class="project__value">Финальная отладка, подготовка к закрытому тестированию (15 тестировщиков)</td>
+                </tr>
+                <tr class="project__row">
+                  <th scope="row" class="project__label">Платформа</th>
+                  <td class="project__value">Google Play (Android), кроссплатформенная готовность</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h3 class="project__subheading">О проекте</h3>
+            <p class="project__text">
+              Разрабатываю кроссплатформенное приложение с акцентом на стабильную работу в любых условиях. В основе — модульная архитектура, обеспечивающая высокий уровень отказоустойчивости и масштабируемости.
+            </p>
+
+            <h3 class="project__subheading">Ключевые инженерные решения</h3>
+            <ol class="project__list">
+              <li class="project__list-item">
+                <strong>Бесшовная офлайн-синхронизация.</strong>
+                Приложение полноценно работает без сети и корректно синхронизирует данные при слабом или нестабильном интернет-соединении.
+              </li>
+              <li class="project__list-item">
+                <strong>Мультиязычность (RU / EN).</strong>
+                Полноценная локализация интерфейса и контента под международную аудиторию.
+              </li>
+              <li class="project__list-item">
+                <strong>Гибкая архитектура.</strong>
+                Чистое разделение слоёв (Clean Architecture) упрощает поддержку и добавление нового функционала.
+              </li>
+            </ol>
+
+            <a href="https://t.me/nekswear" class="button button--secondary" target="_blank" rel="noopener">
+              Обсудить ваш проект
+            </a>
+          </article>
+
+          <!-- Правая колонка: скриншот -->
+          <div class="project__visual">
+            <img src="img/flutter-app-ui-2.png"
+                 alt="Дашборд статистики и прогресса в мобильном приложении на Flutter"
+                 class="project__image"
+                 width="540" height="960"
+                 loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== О СЕБЕ: ПОДХОД ===================== -->
+    <section class="about section" id="about" aria-label="О себе">
+      <div class="container about__inner">
+        <!-- Фото -->
+        <div class="about__photo-wrap">
+          <img src="img/alexander-photo.png"
+               alt="Александр Александрович — Flutter-разработчик и UX-проектировщик"
+               class="about__photo"
+               width="480" height="480"
+               loading="lazy">
+        </div>
+
+        <div class="about__content">
+          <header class="section__header section__header--left">
+            <h2 class="section__title">Инженерный подход к коду + научный подход к человеку</h2>
+          </header>
+
+          <p class="about__text">
+            Я совмещаю кроссплатформенную разработку на Flutter с пониманием психологии восприятия и взаимодействия. Для меня приложение — это не просто набор экранов и баз данных, а цифровая среда, влияющая на состояние пользователя.
+          </p>
+
+          <p class="about__text">В каждый проект я закладываю три ключевых принципа:</p>
+
+          <div class="about__principles">
+            <article class="principle-card">
+              <h3 class="principle-card__title">Минимум шагов до цели</h3>
+              <p class="principle-card__text">
+                Убираю интерфейсный «шум» и сокращаю путь пользователя до ключевого действия без лишних кликов.
+              </p>
+            </article>
+            <article class="principle-card">
+              <h3 class="principle-card__title">Предсказуемость сценариев</h3>
+              <p class="principle-card__text">
+                Использую привычные логические цепочки, чтобы интерфейс считывался интуитивно и не вызывал вопросов.
+              </p>
+            </article>
+            <article class="principle-card">
+              <h3 class="principle-card__title">Спокойный визуальный ритм</h3>
+              <p class="principle-card__text">
+                Подбираю архитектуру экранов и микровзаимодействий так, чтобы снижать когнитивную нагрузку и утомляемость.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ОБРАЗОВАНИЕ ===================== -->
+    <section class="education section" id="education" aria-label="Образование">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Академический бэкграунд в основе UX</h2>
+          <p class="section__subtitle">Бакалавриат по социологии и магистратура по социально-педагогическому сопровождению</p>
+        </header>
+
+        <p class="education__intro">
+          Моя база — бакалавриат по социологии и магистратура по социально-педагогическому сопровождению личности. Для IT-разработки это фундаментальное понимание социологии личности, групповой динамики и механик человеческой коммуникации.
+        </p>
+
+        <div class="education__grid">
+          <article class="education-card">
+            <h3 class="education-card__title">Глубокий анализ аудитории</h3>
+            <p class="education-card__text">
+              Исследую пользователей как социолог — с опорой на их истинные потребности, привычки и контекст использования продукта.
+            </p>
+          </article>
+          <article class="education-card">
+            <h3 class="education-card__title">Проектирование пути (CJM)</h3>
+            <p class="education-card__text">
+              Понимая логику восприятия и сопровождения личности, выстраиваю бесшовный путь пользователя — без точек фрустрации.
+            </p>
+          </article>
+          <article class="education-card">
+            <h3 class="education-card__title">Осознанный UX</h3>
+            <p class="education-card__text">
+              Проектирую не просто красивые экраны, а цифровые сценарии, в которых человеку легко адаптироваться и достигать результата.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ДЛЯ КОГО ===================== -->
+    <section class="audience section" id="audience" aria-label="Целевая аудитория">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Цифровые решения для малого бизнеса, локальных брендов и образовательных проектов</h2>
+        </header>
+        <p class="audience__text">
+          Помогаю владельцам малого бизнеса — от бутиков одежды и сферы услуг до экспертных курсов — создавать простые, красивые и технологичные цифровые продукты. Без раздутых бюджетов и лишней сложности. Если вам нужно мобильное приложение, лендинг или короткий ролик для соцсетей, я подберу решение под вашу задачу и аудиторию.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ ===================== -->
+    <section class="extra section" id="extra" aria-label="Дополнительные услуги">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Помимо разработки</h2>
+          <p class="section__subtitle">Комплексный подход к представлению вашего продукта в сети</p>
+        </header>
+
+        <div class="extra__grid">
+          <!-- Услуга 1: Тексты -->
+          <article class="service-card">
+            <div class="service-card__visual">
+              <img src="img/texts-preview.png"
+                   alt="Разработка конверсионного лендинга для малого бизнеса"
+                   class="service-card__image"
+                   width="640" height="360"
+                   loading="lazy">
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Продающие тексты и прототипы</h3>
+              <p class="service-card__text">
+                Разрабатываю смысловую структуру и тексты для лендингов, которые чётко доносят ценность продукта и ведут к целевому действию. Пишу по принципам инфостиля и практической психологии — с учётом того, как человек реально считывает смыслы с экрана.
+              </p>
+            </div>
+          </article>
+
+          <!-- Услуга 2: Ролики -->
+          <article class="service-card">
+            <div class="service-card__visual">
+              <img src="img/reels-preview.png"
+                   alt="Сценарий и динамичный монтаж коротких роликов для соцсетей"
+                   class="service-card__image"
+                   width="640" height="360"
+                   loading="lazy">
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Видеоконтент для соцсетей</h3>
+              <p class="service-card__text">
+                Готовлю ролики «под ключ» — от сценария и структуры до чистового монтажа с акцентом на вовлекаемость аудитории. Работаю с коротким форматом, где каждый кадр на счету.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA / КОНТАКТЫ ===================== -->
+    <section class="cta-section section" id="contact" aria-label="Связаться">
+      <div class="container cta-section__inner">
+        <h2 class="cta-section__title">Обсудим ваш проект?</h2>
+        <p class="cta-section__text">
+          Напишите — отвечу в течение дня. Расскажите, что нужно сделать, и я предложу оптимальный инженерный и UX-подход.
+        </p>
+        <a href="https://t.me/nekswear" class="button button--primary cta-section__button" target="_blank" rel="noopener">
+          Написать в Telegram
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== ПОДВАЛ ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2026 Александр — Flutter-разработка, лендинги, видеомонтаж</p>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <a href="https://t.me/nekswear" class="footer__link" target="_blank" rel="noopener">Telegram</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Подключение скрипта перед закрывающим тегом body -->
+  <script src="script.js"></script>
+</body>
+</html>
