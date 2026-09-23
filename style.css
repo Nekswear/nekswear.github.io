@@ -486,9 +486,10 @@ h1, h2, h3 {
 
 .about__principles {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
   gap: 16px;
   margin-top: 24px;
+  width: 100%;
 }
 
 .principle-card {
@@ -497,6 +498,13 @@ h1, h2, h3 {
   border-radius: var(--radius);
   padding: 20px;
   transition: box-shadow var(--transition), transform var(--transition);
+  flex: 1 1 calc(50% - 8px); /* Занимают 50% ширины (2 карточки в ряд) */
+  box-sizing: border-box;
+}
+
+.principle-card.principle-card--wide {
+  flex: 1 1 100%; /* Третья карточка растягивается на 100% во второй ряд */
+  width: 100%;
 }
 
 .principle-card:hover {
