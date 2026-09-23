@@ -954,3 +954,30 @@ h1, h2, h3 {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Выравнивание кнопок и ссылок в CTA */
+.cta-section__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.cta-section__email-link {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: underline;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+  margin-top: 4px;
+}
+
+.cta-section__email-link:hover {
+  color: #ffffff;
+}
+
+/* Расстояние между ссылками в футере */
+.footer__nav {
+  display: flex;
+  gap: 16px;
+}
