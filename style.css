@@ -778,13 +778,19 @@ h1, h2, h3 {
     flex: 1 1 60%;
   }
 
+  /* Исправление раскладки карточек принципов */
   .about__principles {
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 16px;
   }
 
   .principle-card {
-    flex: 1 1 calc(33.333% - 11px);
+    flex: 1 1 calc(50% - 8px); /* Первые две карточки делят первый ряд */
+  }
+
+  .principle-card--wide {
+    flex: 1 1 100%; /* Третья карточка растягивается во второй ряд на 100% ширины */
   }
 
   /* Образование — сетка */
